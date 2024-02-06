@@ -34,7 +34,7 @@ provider "aws" {
   region     = var.region
 }
 
-# Add .gitignore file in this directory with the terraform.tfvars
+Add .gitignore file in this directory with the terraform.tfvars
 
 resource "aws_instance" "tc_instance" {
   ami           = "ami-0c7c4e3c6b4941f0f"
