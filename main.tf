@@ -44,3 +44,8 @@ resource "aws_instance" "tc_instance" {
     Name = "TC-triggered-instance"
   }
 }
+
+resource "aws_iam_user" "dev2" {
+  name = "dev2"
+  
+}
